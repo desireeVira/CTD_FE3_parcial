@@ -1,3 +1,8 @@
+### Entregable FrontEnd III - Primer Parcial 
+
+Link GitHub Pages: https://desireevira.github.io/CTD_FE3_parcial/ \
+Link CodeSandbox: https://codesandbox.io/s/github/desireeVira/CTD_FE3_parcial #
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
