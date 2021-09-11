@@ -6,19 +6,20 @@ import Opcion from './Opcion';
 export default class Main extends React.Component{
 
     state={
-        text: data[0],
-        opciones: [data[0].opciones.a, data[0].opciones.b],
+        text: "",
+        opciones: [],
         contador: 1,
         opcion: null
     }
 
-    // componentDidMount(){
-    //     this.setState({
-    //         historia:data[0].historia,
-    //         opcionA: data[0].opciones.a,
-    //         opcionB: data[0].opciones.b
-    //     })
-    // }
+    componentDidMount(){
+        this.setState({
+            text: data[0],
+            opciones: [data[0].opciones.a, data[0].opciones.b],
+            contador: 1,
+            opcion: null
+        })
+    }
 
     ManejadorClick = (evento) => {
         if(this.state.contador < 5){

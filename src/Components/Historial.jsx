@@ -29,7 +29,7 @@ export default class Historial extends React.Component{
                 <h2>Seleccion anterior: {this.state.seleccionAnterior}</h2>
                 <h2>Historial de opciones elegidas:</h2>
                 <ul>
-                    {this.state.historial.map((opcion, index) => <li key={index}>{opcion}</li>)}
+                   {this.state.historial.slice(0,-1).map((opcion, index) => <li key={index}>{opcion}</li>)}
                 </ul>
             </div>
         );
